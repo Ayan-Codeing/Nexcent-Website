@@ -53,6 +53,7 @@ header ul button:hover {
 .main {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding: 40px 0px;
     gap: 150px;
     background-color: rgb(236, 236, 236);
@@ -166,6 +167,38 @@ header ul button:hover {
 
 
 /* section three start */
+.Section-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 20px;
+}
+
+.secthree-right {
+    width: 500px;
+}
+
+.secthree-right h1 {
+    font-size: 30px;
+    color: #4D4D4D;
+}
+
+.secthree-right p {
+    color: #717171;
+    padding: 10px 0px;
+}
+
+.secthree-right button {
+    border: none;
+    background-color: #4CAF4F;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+
 /* section three end */
 
 
@@ -216,9 +249,10 @@ header ul button:hover {
     }
 
     .left button {
-        /* padding: 0px; */
-        font-weight: 100;
-        padding: 5px 5px;
+        letter-spacing: 1px;
+        font-weight: 400;
+        padding: 5px 15px;
+        font-size: 10px;
     }
 
     .bars {
@@ -254,4 +288,40 @@ header ul button:hover {
     }
 
     /* Section-two end */
+
+
+    /* Section-three start */
+    .Section-three {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding: 0px;
+    }
+
+    .secthree-left img {
+        display: none;
+    }
+
+
+    .secthree-right {
+        width: 500px;
+    }
+
+    .secthree-right h1 {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .secthree-right p {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .secthree-right button {
+        margin-left: 130px;
+    }
+
+
+    /* Section-three end */
 }
