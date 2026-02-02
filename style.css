@@ -254,6 +254,7 @@ header ul button:hover {
 .Section-five {
     text-align: center;
     padding: 30px 0px;
+    background-color: rgb(238, 238, 238);
 }
 
 .Section-five h1 {
@@ -278,6 +279,79 @@ header ul button:hover {
 }
 
 /* Section five end */
+
+
+/* Footer start */
+footer {
+    background-color: #263238;
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 100px;
+}
+
+footer .div1 {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer .div1 p,
+.icons {
+    color: #F5F7FA;
+}
+
+footer .div2 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 10px;
+    color: #F5F7FA;
+}
+
+footer .div2 li {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
+    width: 100%;
+}
+
+footer .div3 {
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    gap: 10px;
+    color: #F5F7FA;
+}
+
+footer .div3 li {
+    color: white;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: left;
+    width: 100%;
+}
+
+footer .div4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+footer .div4 input {
+    width: 100%;
+    border: none;
+    padding: 15px 10px;
+    width: 300px;
+    background: rgba(156, 156, 156, 0.204);
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+/* Footer end */
+
 
 
 
@@ -476,4 +550,79 @@ header ul button:hover {
     }
 
     /* Section five end */
+
+
+    /* Footer start */
+    footer {
+        flex-direction: column;
+        gap: 50px;
+        text-align: center;
+        padding: 30px;
+    }
+
+    footer .div1 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    footer .div1 p,
+    .icons {
+        color: #F5F7FA;
+    }
+
+    footer .div2 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        color: #F5F7FA;
+    }
+
+    footer .div2 li {
+        color: white;
+        font-weight: 300;
+        font-size: 15px;
+        text-align: center;
+        width: 100%;
+    }
+
+    footer .div3 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10px;
+        color: #F5F7FA;
+    }
+
+    footer .div3 li {
+        color: white;
+        font-weight: 300;
+        font-size: 15px;
+        text-align: center;
+        width: 100%;
+    }
+
+    footer .div4 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        color: white;
+        text-align: center;
+    }
+
+    footer .div4 input {
+        width: 100%;
+        border: none;
+        padding: 15px 10px;
+        width: 300px;
+        background: rgba(156, 156, 156, 0.204);
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        justify-content: center;
+        display: flex;
+    }
+
+    /* Footer end */
 }
